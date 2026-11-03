@@ -175,6 +175,7 @@ original boot script at `/etc/ppk.boot/etc/dpdk_boot.sh.labbk`.
   gateways with more than two cores is unsupported and may cause stability
   issues. On current releases a `usim_x86` crash panics and reboots the whole
   gateway. Whether R82.10/R82.20 change this is an open question.
+  https://shadowpeak.com/max-power-2026-book 
 - **There is a performance cost.** Tim Hall measured roughly a 20% single-stream
   fastpath penalty on R82.10, varying by path — around 40% on the slowpath.
   Separate R82.20 testing showed roughly 0.5 ms added to each new connection.
